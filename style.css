@@ -5,6 +5,9 @@ body{
  h1{
      font-size: 50px;
  }
+ h2{
+     font-size: 40px;
+ }
 .orange-color{
     color: orange;
 }
@@ -16,6 +19,7 @@ body{
     width: 50%;
     padding-left: 2%; 
     padding-top: 2%;
+    
 }
 .half-width{
     width: 50%;
@@ -26,7 +30,7 @@ body{
 .Link-Button{
     text-decoration: none;
     background-color: orange;
-    background-image: linear-gradient(orange, tomato));
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -41,4 +45,32 @@ body{
     background-image: url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.Full-stack-developer{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+}
+#Full-stack-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
